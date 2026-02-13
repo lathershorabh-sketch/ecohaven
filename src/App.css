@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@theme inline {
+  --color-medium-white: #f5fcdf;
+  --color-medium-green: #aeffa2;
+  --font-tanker: "tanker-regular";
+}
+
+body {
+  background: #0b100b;
+  font-family: var(--font-tanker);
+}
+
+@font-face {
+  font-family: "tanker-regular";
+  src: url(./assets/fonts/Tanker-Regular.otf);
+  font-weight: 400;
+  font-display: swap;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif !important;
+}
+
+.medium-green {
+  color: var(--color-medium-green);
+}
