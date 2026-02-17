@@ -9,13 +9,13 @@ const Navbar = () => {
     <section className="relative flex justify-center font-inter">
       <div className="max-lg:bg-[#42553D] max-w-285 w-full max-lg:rounded-b-full">
         <div className="relative">
-          <div className="flex items-center h-20 justify-between px-10 sm:px-20 md:px-30 xl:px-40">
+          <div className="flex items-center h-20 justify-between px-10 sm:px-20 md:px-30 xl:px-40  ">
             <p>
               <Navimg />
             </p>
-            <ul className="hidden lg:flex gap-8">
+            <ul className="hidden lg:flex gap-8 z-20">
               {navlist.map((item, i) => (
-                <li key={i} className="text-white">
+                <li key={i} className="text-white hover:text-medium-green">
                   <a href="/">{item}</a>
                 </li>
               ))}
@@ -30,7 +30,7 @@ const Navbar = () => {
           </div>
           <img
             className="absolute left-1/2 -translate-x-1/2 top-0 -z-10 lg:z-10 w-full"
-            src="./public/images/Navbg.png"
+            src="./src/assets/Navbg.png"
             alt="navbg"
           />
           <ul
