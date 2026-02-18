@@ -6,11 +6,11 @@ const Betterfuture = () => {
   return (
     <section className="mb-10 lg:mb-37.5">
       <div className="mb-10 lg:mb-22.5">
-        <h2 className="text-white text-[28px] md:text-[32px] lg:text-[60px] text-center mb-1.75">
+        <h2 className="text-medium-white text-[28px] md:text-[32px] lg:text-[60px] text-center mb-1.75">
           Take Action For A
           <span className="text-medium-green"> Better Future</span>
         </h2>
-        <p className="text-white mx-auto text-center font-inter text-[12px] lg:text-[16px] max-w-178 px-5 lg:px-0">
+        <p className="text-medium-white mx-auto text-center font-inter text-[12px] lg:text-[16px] max-w-178 px-5 lg:px-0">
           Lorem ipsum dolor sit amet, consectetur adipis Vi ales elit vitae lo
           bortis faucibus. Lorem ipsum dolor sit amet, conse dolor sit amet,
           consectetu ctetur adipis Viales
@@ -23,8 +23,10 @@ const Betterfuture = () => {
       <div className="max-w-335 w-full gap-10 lg:gap-0 justify-center lg:justify-between mx-auto  flex flex-wrap xl:flex-row items-center text-white font-inter px-5 xl:px-0">
         <div className="max-w-80.75 text-center">
           <Plant className="mx-auto" />
-          <h3 className="font-bold text-[22px]">Planting Trees </h3>
-          <p className="mt-2 lg:mt-3.5">
+          <h3 className="font-bold text-[22px] text-medium-white">
+            Planting Trees{" "}
+          </h3>
+          <p className="mt-2 lg:mt-3.5 text-medium-white">
             Start your journey by supporting tree planting initiatives. Help
             restore green cover, fight climate change, and make the Earth
             breathe again — one tree at a time.
@@ -39,8 +41,10 @@ const Betterfuture = () => {
 
         <div className="max-w-80.75 text-center">
           <Water className="mx-auto" />
-          <h3 className="font-bold text-[22px]">Save Water</h3>
-          <p className="mt-2 lg:mt-3.5">
+          <h3 className="font-bold text-[22px] text-medium-white">
+            Save Water
+          </h3>
+          <p className="mt-2 lg:mt-3.5 text-medium-white">
             Protect Earth’s most precious resource. Conserve clean water through
             mindful travel and eco-friendly practices that make a real
             difference in local communities.
@@ -54,8 +58,10 @@ const Betterfuture = () => {
         </div>
         <div className="max-w-80.75 text-center">
           <Hand className="mx-auto" />
-          <h3 className="font-bold text-[22px]">Protect Wildlife</h3>
-          <p className="mt-2 lg:mt-3.5">
+          <h3 className="font-bold text-[22px] text-medium-white">
+            Protect Wildlife
+          </h3>
+          <p className="mt-2 lg:mt-3.5 text-medium-white">
             Help safeguard endangered animals by supporting rescue efforts and
             wildlife protection programs around the world.
           </p>

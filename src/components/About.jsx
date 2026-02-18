@@ -6,15 +6,15 @@ const About = () => {
     <>
       <section className=" mt-15 md:mt-20 mb-10 lg:mb-20 lg:my-37.5 font-inter flex flex-col lg:flex-row justify-center lg:justify-between items-center h-full lg:h-152 gap-15 lg:gap-0 mx-12.5 ">
         <div className="max-w-200 lg:max-w-275.75 w-full rounded-xl py-5 md:py-10 lg:py-30 pl-5 lg:pl-15 border border-[#577952] text-center lg:text-start px-5 lg:px-0">
-          <h2 className="text-white text-[32px] lg:text-[50px] font-tanker mb-2 lg:mb-4 ">
+          <h2 className="text-medium-white text-[32px] lg:text-[50px] font-tanker mb-2 lg:mb-4 ">
             About <span className="medium-green">Us</span>
           </h2>
-          <p className="text-white max-w-110 xl:max-w-135.5 w-full mb-2.5 mx-auto lg:mx-0">
+          <p className="text-medium-white max-w-110 xl:max-w-135.5 w-full mb-2.5 mx-auto lg:mx-0">
             At EcoHaven, we believe that protecting the Earth isn’t just a
             choice — it’s a shared responsibility. We are a passionate community
             driven by one mission: to restore balance between people and planet.
           </p>
-          <p className="text-white max-w-110 xl:max-w-135.5 w-full mb-2.5 lg:mb-10 mx-auto lg:mx-0">
+          <p className="text-medium-white max-w-110 xl:max-w-135.5 w-full mb-2.5 lg:mb-10 mx-auto lg:mx-0">
             From preserving ancient forests and clean water sources to
             safeguarding endangered species, our work is rooted in real impact.
             With every tree planted, every action taken, and every voice raised

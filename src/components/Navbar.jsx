@@ -15,14 +15,14 @@ const Navbar = () => {
             </p>
             <ul className="hidden lg:flex gap-8 z-20">
               {navlist.map((item, i) => (
-                <li key={i} className="text-white hover:text-medium-green">
+                <li key={i} className="text-medium-white hover:text-medium-green">
                   <a href="/">{item}</a>
                 </li>
               ))}
             </ul>
             <button
               onClick={() => setOpen(!open)}
-              className="block lg:hidden z-40 text-white"
+              className="block lg:hidden z-40 text-medium-white"
             >
               {" "}
               {open ? <Cross /> : <Hamburger />}
@@ -41,7 +41,7 @@ const Navbar = () => {
                 <a
                   key={i}
                   href="/"
-                  className="text-white"
+                  className="text-medium-white"
                   onClick={() => setOpen(false)}
                 >
                   {item}
